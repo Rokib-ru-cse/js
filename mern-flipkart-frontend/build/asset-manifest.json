@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mern-flipkart-frontend/static/css/main.b459ef0d.chunk.css",
+    "main.js": "/mern-flipkart-frontend/static/js/main.e74e23ac.chunk.js",
+    "main.js.map": "/mern-flipkart-frontend/static/js/main.e74e23ac.chunk.js.map",
+    "runtime-main.js": "/mern-flipkart-frontend/static/js/runtime-main.ceca4a56.js",
+    "runtime-main.js.map": "/mern-flipkart-frontend/static/js/runtime-main.ceca4a56.js.map",
+    "static/css/2.55d8add8.chunk.css": "/mern-flipkart-frontend/static/css/2.55d8add8.chunk.css",
+    "static/js/2.e3fe1103.chunk.js": "/mern-flipkart-frontend/static/js/2.e3fe1103.chunk.js",
+    "static/js/2.e3fe1103.chunk.js.map": "/mern-flipkart-frontend/static/js/2.e3fe1103.chunk.js.map",
+    "static/js/3.d477234c.chunk.js": "/mern-flipkart-frontend/static/js/3.d477234c.chunk.js",
+    "static/js/3.d477234c.chunk.js.map": "/mern-flipkart-frontend/static/js/3.d477234c.chunk.js.map",
+    "index.html": "/mern-flipkart-frontend/index.html",
+    "static/css/2.55d8add8.chunk.css.map": "/mern-flipkart-frontend/static/css/2.55d8add8.chunk.css.map",
+    "static/css/main.b459ef0d.chunk.css.map": "/mern-flipkart-frontend/static/css/main.b459ef0d.chunk.css.map",
+    "static/js/2.e3fe1103.chunk.js.LICENSE.txt": "/mern-flipkart-frontend/static/js/2.e3fe1103.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceca4a56.js",
+    "static/css/2.55d8add8.chunk.css",
+    "static/js/2.e3fe1103.chunk.js",
+    "static/css/main.b459ef0d.chunk.css",
+    "static/js/main.e74e23ac.chunk.js"
+  ]
+}

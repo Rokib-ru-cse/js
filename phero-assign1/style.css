@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+nav ul {
+  margin-left: 65%;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  padding: 10px 15px;
+  transition: 0.6s all ease-in-out;
+}
+nav ul li:hover {
+  box-shadow: 0px 0px 10px rgba(250, 0, 0, 0.9);
+  border-radius: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.myname {
+  color: tomato;
+}
+
+.box {
+  height: 400px;
+  width: 100%;
+}
+.half-width {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  padding: 0px 100px;
+}
+.half-width img {
+  /* width: 100%;
+    height: 100%; */
+}
+.half-width h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: 'Bebas Neue', cursive;
+}
+.half-width p {
+  margin-bottom: 30px;
+}
+.half-width a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: tomato;
+  font-weight: bold;
+  transition: .6s all ease-in-out;
+}
+.half-width a:hover{
+  border: 1px solid tomato;
+  background-color: transparent;
+  color: tomato;
+}
+.third-width {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  padding: 0px 20px;
+  margin: 30px 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.4s all ease-in-out;
+  background-color: white;
+}
+.third-width:hover {
+  box-shadow: 0px 0px 10px rgba(250, 0, 0, 0.7);
+}
+.chat {
+  height: 180px;
+  border: 1px solid transparent;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("./images/image4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.chat span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+  border: 1px solid transparent;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.chat a {
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: tomato;
+  margin-left: 150px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+footer img {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  transition: .6s all ease-in-out;
+}
+footer img:hover {
+  width: 50px;
+  height: 50px;
+}
+footer a {
+  text-decoration: none;
+}
+#skill {
+  text-align: center;
+}
+#skill h2{
+  margin: 50px 0px;
+  font-weight: bold;
+    font-size: 3rem;
+}
+
+#skill h1{
+    margin-top: 70px;
+  }
+
+.skill-item {
+  color: white;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.4s all ease-in-out;
+  border-radius: 5px;
+  
+}
+
+.skill-item:nth-child(4n + 0) {
+    animation-name: example1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  
+  }
+  .skill-item:nth-child(4n + 1) {
+    animation-name: example2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  }
+  .skill-item:nth-child(4n + 2) {
+    animation-name: example3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  }
+  .skill-item:nth-child(4n + 3) {
+    animation-name: example4;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes example1 {
+    0%   {background-color: tomato;}
+    25%  {background-color:#ADEFD1FF; }
+    50%  {background-color:#42EADDFF; }
+    75%  {background-color:#00B1D2FF; }
+    100% {background-color: skyblue; }
+  }
+  @keyframes example2 {
+    0%   {background-color: #ff577f }
+    25%  {background-color : crimson;}
+    50%  {background-color: #ff6b6b; }
+    75%  {background-color:#ffd56b; }
+    100% {background-color: salmon;}
+  }
+  @keyframes example3 {
+    0%   {background-color:#81ecec; }
+    25%  {background-color:#6c5ce7; }
+    50%  {background-color: aqua; }
+    75%  {background-color:#1dd1a1; }
+    100% {background-color:#fd79a8; }
+  }
+  @keyframes example4 {
+    0%   {background-color: #ff9ff3; }
+    25%  {background-color:coral; }
+    50%  {background-color:#00cec9; }
+    75%  {background-color: #1dd1a1;}
+    100% {background-color: pink; }
+  }
+
+.skill-item:nth-child(4n + 0):hover {
+  transform: rotate(360deg);
+}
+.skill-item:nth-child(4n + 1):hover {
+  transform: scale(1.5, 1.5);
+}
+.skill-item:nth-child(4n + 2):hover {
+  transform: translate(50px, 100px);
+}
+.skill-item:nth-child(4n + 3):hover {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}

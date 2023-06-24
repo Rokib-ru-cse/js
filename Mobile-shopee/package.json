@@ -1,0 +1,20 @@
+{
+  "name": "mobile-shopee-1",
+  "version": "1.0.0",
+  "description": "This is a full stack e-commerce template owned by Rokib Ahmed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass ./sass/style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokib-ru-cse/Mobile-shopee.git"
+  },
+  "author": "Rokib Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokib-ru-cse/Mobile-shopee/issues"
+  },
+  "homepage": "https://github.com/Rokib-ru-cse/Mobile-shopee#readme"
+}

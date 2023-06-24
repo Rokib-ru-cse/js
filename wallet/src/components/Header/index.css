@@ -1,0 +1,13 @@
+NavDropdown,i[title]{
+    color: rgba(0,0,0,0.54);
+}
+/* .custom-nav{
+    display: flex;
+} */
+
+
+@media only screen and (max-width: 768px) {
+    .top-nav{
+        margin-left: 50px!important;
+    }
+}

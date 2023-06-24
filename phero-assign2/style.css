@@ -1,0 +1,18 @@
+.casual-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-flex,
+    .cart-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cart-flex-item {
+        text-align: center;
+    }
+    .cart-flex-item img {
+        width: 90px;
+    }
+}

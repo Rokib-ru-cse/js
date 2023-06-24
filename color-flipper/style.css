@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    box-shadow: 10px 10px 20px red;
+    padding: 10px 0;
+    color :#87e3fd;
+    position: sticky;
+    top: 0;
+}
+h3{
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    color: wheat;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 30px;
+    margin-left: 2%;
+    border: 2px solid pink;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+}
+.display{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+}
